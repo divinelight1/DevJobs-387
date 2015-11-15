@@ -1,10 +1,3 @@
-/*! HTML5 Boilerplate v5.2.0 | MIT License | https://html5boilerplate.com/ */
-
-/*
- * What follows is the result of much research on cross-browser styling.
- * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
- * Kroc Camen, and the H5BP dev community and team.
- */
 
 /* ==========================================================================
    Base styles: opinionated defaults
@@ -92,10 +85,50 @@ textarea {
 }
 
 /* ==========================================================================
-   Author's custom styles
+    custom styles
    ========================================================================== */
-
-
+/*fonts*/
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+/*content*/
+header{
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    background: #683D90;
+    border-bottom: 1px solid #fff;
+}
+#logo{
+    width: 100px;
+    height: 60px;
+    position: relative;
+    top: 10px;
+    left: 30px;
+    float: left;
+}
+#logo img{
+    max-width: 100%;
+}
+.main-nav{
+    float: right;
+    position: relative;
+    top: 20px;
+    right: 30px;
+}
+.main-nav ul li{
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+}
+.main-nav ul li a{
+    text-decoration: none;
+    color: #B49EC8;
+    font-size: 20px;
+     transition: 0.5s ease;
+}
+.main-nav ul li a:hover{
+    color: #2C094C;
+}
 
 
 
