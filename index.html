@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html  ng-app="myApp">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -10,10 +10,24 @@
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
 
-        <link rel="stylesheet" href="css/normalize.css">
+       
+         <!-- SCRIPTS -->
+        <!--angular script -->
+    <script src="https://code.angularjs.org/1.3.0-rc.1/angular.min.js"></script>
+    <script src="https://code.angularjs.org/1.3.0-rc.1/angular-route.min.js"></script>
+    <!-- end of angular-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    
+    <!-- bootstrap script-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <!--end of bootstrap-->
+     <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" type="text/css" href="css/simplegrid.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+        <script src="js/angular/route.js"></script>
     </head>
     <body>
        <header>
@@ -22,7 +36,7 @@
            </div>
            <nav class="main-nav">
                <ul>
-                   <li><a href="#">Home</a></li>
+                   <li><a href="/">Home</a></li>
                    <li><a href="#">About</a></li>
                    <li><a href="#">Jobs</a></li>
                    <li><a href="#">Add Job</a></li>
@@ -31,8 +45,10 @@
            </nav>
        </header>
        <!-- ajaxed content goes here -->
-       <div class="wrapper" ng-app="myApp" ng-view>
-           
+       <div class="wrapper" >
+           <div ng-view>
+               
+           </div>
        </div> <!-- end of content -->
        <footer>
            <div class="top-footer">
@@ -70,21 +86,11 @@
 </div>
            </div>
        </footer>
-    <!-- SCRIPTS -->
-        <!--angular script -->
-    <script src="https://code.angularjs.org/1.3.0-rc.1/angular.min.js"></script>
-    <script src="https://code.angularjs.org/1.3.0-rc.1/angular-route.min.js"></script>
-    <!-- end of angular-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="app.js"></script>
-    <!-- bootstrap script-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <!--end of bootstrap-->
+   
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
+        
     </body>
 </html>
