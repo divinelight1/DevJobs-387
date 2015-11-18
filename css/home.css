@@ -1,0 +1,34 @@
+/*style only for home.html*/
+
+.first-section{
+	width: 100%;
+	height: 500px;
+	color: #EB5A49;
+
+}
+.first-section h1{
+	    text-align: center;
+    margin-top: 90px;
+    font-size: 60px;
+    font-family: "Open Sans";
+    font-weight: 800;
+}
+.first-section-img{
+	width: 190px;
+	margin: auto;
+}
+
+
+.second-section{
+	width: 100%;
+	height: 600px;
+	background: #576474;
+	color: #fff;
+}
+.second-section h1{
+	text-align: center;
+    padding-top: 50px;
+    font-size: 60px;
+    font-family: "Open Sans";
+    font-weight: 100;
+}
