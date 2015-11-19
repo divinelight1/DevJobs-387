@@ -32,3 +32,18 @@
     font-family: "Open Sans";
     font-weight: 100;
 }
+.who-we-are-img{
+	width: 85%;
+	margin: auto;
+}
+.who-we-are-img img{
+	max-width: 100%;
+}
+.who-we-are-paragraph{
+	margin-top: 70px;
+	    line-height: 20px;
+    font-size: 18px;
+    font-weight: 100;
+    font-family: "Open Sans";
+    text-align: justify;
+}
