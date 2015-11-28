@@ -54,3 +54,9 @@
 	background: #fff;
 	color: #EB5A49;
 }
+.circle-section{
+	    width: 100px;
+    background: #576474;
+    padding: 30px;
+    border-radius: 70px;
+}
