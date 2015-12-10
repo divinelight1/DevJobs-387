@@ -10,7 +10,7 @@ myApp.config(  function ($routeProvider){
 		templateUrl: 'pages/home.html',
 		controller: 'homeController'
 	})
-	.when('/about' , {
+	.when('#/about' , {
 		templateUrl: 'pages/about.html',
 		controller: 'aboutController'
 	})
@@ -18,11 +18,11 @@ myApp.config(  function ($routeProvider){
 		templateUrl: 'pages/jobs.html',
 		controller: 'jobsController'
 	})
-	.when('/contact' , {
+	.when('#/contact' , {
 		templateUrl: 'pages/contact.html',
 		controller: 'contactController'
 	})
-	.when('/add-job' , {
+	.when('#/add-job' , {
 		templateUrl: 'pages/add-job.html',
 		controller: 'addjobController'
 	})
